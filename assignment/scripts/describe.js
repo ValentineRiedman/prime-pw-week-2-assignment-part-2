@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The single = sign in line 36 is assigning a value to "name". Meaning, if you are "name", than you're called "Dane".
+// The === checks strictly whether or not "name"("Dane") equal to 'Mary'. If it does the console will output. "Hi, Mary!""   
+// Else in line 40 is there if the oppisite is determined. If 'Dane" is not 'Mary' then the console will respond with
+//"How do you do?" In this case the console log will respond 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// "Secret" is a variable. It's value is based on the the 2 conditionals. "Code" is given a value of 123. The first  
+// conditional states that if "code" equals 123, than "secret" has the value "super" and the value of "code" is
+// multiplied by 2. "code" now equals 246. The second conditional asks if "code" is greater than 250 "secret"   
+// equals "duper". We console log super. 
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent. We set the value to true. We make a variable called age and set the value to
+// 34. We make another variable zip and set it's value to 55407. We check if isStudent equal to true and if zip is
+// greater than 8000. If both are true we console log "You're a student on the West Coast". If false we check isStudent
+// equal to false or is age less than 30. If either are true, we console log "What are your hobbies?" We check if 
+// isStudent is equal to true. If true we console log "Welcome to Prime!". If all conditionals are false we console log
+// "How about this weather?". We console log "Welcome to Prime!".
 
 //CODE
 /*
@@ -130,11 +132,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne set to red. However instructions say colorOne is set to blue
+//Should be let colorOne = 'blue';
 let colorOne = 'red';
+
+// colorTwo set to blue. However instructions say colorTwo set to red.
+//Should be let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+// Instructions say that if true set colorOne and colorTwo to purlple
+// Missing line should say colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -146,7 +155,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//Instructions state that if temp is higher than 39 AND if time is greater or equal to 4. Code uses or.
+// Should be if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +170,14 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// Instructions state that if age is equal or greater to minAge we console log enter. The if and else are switched.
+// Also age and minAge in the conditional should be switched.
+// Should read 
+//if ( age <= minAge ){
+//  console.log( 'enter' );  
+//} else {
+//  console.log('no entry');    
+//}
 if(minAge <= age) {
   console.log('no entry');
 } else {
